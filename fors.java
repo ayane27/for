@@ -7,27 +7,22 @@
  */
 public class fors
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class fors
-     */
-    public fors()
-    {
-        // initialise instance variables
-        x = 0;
+    public void run() {
+        for (int i = 0; i>=15; i = i + 1) {
+            System.out.println("i is equal to "+i);
+        }
+        for (int j = 10; j>=0; j = j - 2) {
+            System.out.println("J is equal to "+j);
+        }
+        for (int k = 10; k>=0; k = k - 3) {
+            System.out.println("k is equal to "+k);
+        }
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
+    public static void main(String[] args)
     {
-        // put your code here
-        return x + y;
+        fors hw = new fors();
+        hw.run();
     }
 }
+    
+
